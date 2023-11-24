@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: yellow;
+            color: black;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            width: calc(50% - 20px);
+            margin-bottom: 20px;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        @media (min-width: 768px) {
+            .card {
+                width: calc(33.33% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Abdurezak Nuredin</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Projects</a>
+    </nav>
+
+    <div class="container">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Detail</h3>
+                    <p>Description for your Detail.</p>
+                </div>
+                <div class="card">
+                    <h3>Education</h3>
+                    <p>Description for Education.</p>
+                </div>
+                <div class="card">
+                    <h3>Skill</h3>
+                    <p>Description for Skill.</p>
+                    <ul>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Experiance</h3>
+                    <p>Description for Experiance.</p>
+                    
+                </div>
+                <div class="card">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Address :</li>
+                        <li>Email :</li>
+                        <li>Phone no :</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
